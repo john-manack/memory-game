@@ -1,3 +1,4 @@
+import MemoryCard from './components/MemoryCard';
 import './App.css';
 
 function App() {
@@ -7,6 +8,30 @@ function App() {
         <h1>Memory Game</h1>
         <h2>Match Cards to Win</h2>
       </header>
+      <div>
+        <MemoryCard />
+        <MemoryCard />
+        <MemoryCard />
+        <MemoryCard />
+      </div>
+      <div>
+        <MemoryCard />
+        <MemoryCard />
+        <MemoryCard />
+        <MemoryCard />
+      </div>
+      <div>
+        <MemoryCard />
+        <MemoryCard />
+        <MemoryCard />
+        <MemoryCard />
+      </div>
+      <div>
+        <MemoryCard />
+        <MemoryCard />
+        <MemoryCard />
+        <MemoryCard />
+      </div>
     </div>
   );
 }
