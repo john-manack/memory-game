@@ -76,10 +76,10 @@ class App extends Component {
           {cardsJSX.slice(4,8)}
         </div>
         <div>
-        {cardsJSX.slice(8,12)}
+          {cardsJSX.slice(8,12)}
         </div>
         <div>
-        {cardsJSX.slice(12,16)}
+          {cardsJSX.slice(12,16)}
         </div>
       </div>
     );
